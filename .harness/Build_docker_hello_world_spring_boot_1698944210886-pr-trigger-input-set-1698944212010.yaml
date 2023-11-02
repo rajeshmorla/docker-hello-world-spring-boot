@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_docker_hello_world_spring_boot_1698944210886-pr-trigger-input-set
+  identifier: Build_docker_hello_world_spring_boot_1698944210886prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_docker_hello_world_spring_boot_1698944210886
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
